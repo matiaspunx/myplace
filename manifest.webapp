@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "name": "MyPlace",
+  "launch_path": "/index.html",
+  "description": "Ese lugar que te encanta y le recomendarias a tu mejor amigo",
+  "developer": {
+    "name": "Matias Punx",
+    "url": "https://www.linkedin.com/in/matiaspunx/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "es",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "MyPlace",
+      "description": "Ese lugar que te encanta y le recomendarias a tu mejor amigo"
+    },
+    "es": {
+      "name": "MyPlace",
+      "description": "Ese lugar que te encanta y le recomendarias a tu mejor amigo"
+    }
+  }
+}

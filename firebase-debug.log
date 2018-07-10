@@ -1,0 +1,41 @@
+[debug] [2018-07-10T18:53:40.673Z] ----------------------------------------------------------------------
+[debug] [2018-07-10T18:53:40.676Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-07-10T18:53:40.676Z] CLI Version:   3.19.3
+[debug] [2018-07-10T18:53:40.676Z] Platform:      darwin
+[debug] [2018-07-10T18:53:40.676Z] Node Version:  v8.5.0
+[debug] [2018-07-10T18:53:40.676Z] Time:          Tue Jul 10 2018 15:53:40 GMT-0300 (-03)
+[debug] [2018-07-10T18:53:40.677Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-10T18:53:40.734Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-10T18:53:40.734Z] > authorizing via signed-in user
+[debug] [2018-07-10T18:53:40.737Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dev-rockers  
+  
+ Tue Jul 10 2018 15:53:40 GMT-0300 (-03)
+[debug] [2018-07-10T18:53:41.935Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T18:53:41.936Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dev-rockers/tokens  
+  
+ Tue Jul 10 2018 15:53:41 GMT-0300 (-03)
+[debug] [2018-07-10T18:53:42.710Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T18:53:42.711Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/dev-rockers  
+  
+ Tue Jul 10 2018 15:53:42 GMT-0300 (-03)
+[debug] [2018-07-10T18:53:43.927Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mpunx/Desktop/devfest2018/dev-rockers'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-10T18:53:50.954Z] Fetching environment
+[debug] [2018-07-10T18:53:50.992Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/203199332079:getServerAppConfig  
+  
+ Tue Jul 10 2018 15:53:50 GMT-0300 (-03)
+[debug] [2018-07-10T18:53:50.993Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/203199332079/clients/_:getWebAppConfig  
+  
+ Tue Jul 10 2018 15:53:50 GMT-0300 (-03)
+[debug] [2018-07-10T18:53:51.441Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T18:53:51.441Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-10T18:53:51.598Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-10T18:54:03.355Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
